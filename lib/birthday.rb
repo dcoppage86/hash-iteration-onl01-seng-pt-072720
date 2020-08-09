@@ -11,4 +11,6 @@ def happy_birthday(birthday_kids)
 end
 
 
-def age_appropriate_birthday
+def age_appropriate_birthday(birthday_kids)
+  if birthday_kids > 12
+    puts ""
